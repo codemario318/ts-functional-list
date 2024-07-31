@@ -143,6 +143,16 @@ mkdir src tests
 └── tsconfig.json
 ```
 
+### 실행 확인  
+
+```shell
+npm run test:watch  
+```
+
+위 명령을 수행했을때 아래와 같은 화면이 나온다면 성공입니다 👍
+
+![test 실행 성공](img.png)
+
 ## 끝으로  
 
 코드 설명은 블로그에 남기도록 하겠습니다.  
