@@ -9,6 +9,8 @@ export interface List<T> {
   forEach(callback: EachFunction<T>): void;
   map<U>(callback: MapFunction<T, U>): List<U>;
   filter(callback: CompareFunction<T>): List<T>;
+  isEmpty(): boolean;
+  size(): number;
 }
 
 type EachFunction<T> = (item: T) => any;
