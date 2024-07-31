@@ -1,7 +1,8 @@
 import { Node } from './Node';
 
 export interface List<T> {
-  readonly head: Node<T>;
+  push(node: Node<T>): void;
+  delete(index: number): void;
   at(index: number): Node<T>;
   find(callback: CompareFunction<T>): Node<T>;
   some(callback: CompareFunction<T>): Boolean;
