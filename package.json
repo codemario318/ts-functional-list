@@ -1,0 +1,19 @@
+{
+  "name": "ts-functional-list",
+  "version": "1.0.0",
+  "description": "**Typescript**로 **List**를 각각 **Object-Oriented**, **Functional** 형식으로 구현해보고 차이점을 확인합니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.3",
+    "typescript": "^5.5.4"
+  }
+}
